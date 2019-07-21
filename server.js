@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 
 const jwt = require("jsonwebtoken");
 const bodyParser = require('body-parser');
-const cors = require('cors');
 const mongoose = require('mongoose');
 
 const App = express();
